@@ -1,0 +1,18 @@
+#
+# system.prop for transform
+#
+rild.libpath=/system/lib/libsec-ril40.so
+rild.libargs=-d /dev/ttyS0
+ro.cdma.home.operator.numeric=310120
+ro.cdma.home.operator.alpha=Sprint
+net.cdma.pppd.authtype=require-pap
+net.cdma.pppd.user=user[SPACE]SprintNextel
+net.cdma.datalinkinterface=/dev/ttyCDMA0
+ro.sf.lcd_density=160
+ril.ecclist=112,911,#911,*911
+net.cdma.ppp.interface=ppp0
+ril.cdma.ppp.up=3
+ro.com.android.dataroaming=true
+
+net.dns1=8.8.4.4
+net.dns2=8.8.8.8
